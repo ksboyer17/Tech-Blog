@@ -1,4 +1,4 @@
-[
+const post =[
     {
       "title": "",
       "post_content": "",
@@ -16,3 +16,4 @@
       }
   ]
   
+  module.exports = post;

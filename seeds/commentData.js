@@ -1,4 +1,4 @@
-[
+const comment = [
     {
       "user_id": "",
       "post_id": "",
@@ -16,3 +16,4 @@
     }
   ]
   
+  module.exports = comment;

@@ -1,14 +1,15 @@
-//combines user post and comments routes
 
 const router = require('express').Router();
-const userRoutes = require('./user-routes.js');
-const postRoutes = require('./post-routes');
-const commentRoutes = require('./comment-routes');
+const dashboardRoutes = require('./dashboardroutes');
+const homeRoutes = require('./homeroutes');
+const apiRoutes = require('./api')
 
-router.use('/user', userRoutes);
+router.use('/dashboard', dashboardRoutes);
 
-router.use('/post', postRoutes);
+router.use('/', homeRoutes);
 
-router.use('/comment', commentRoutes);
+router.use('/api', apiRoutes);
+
 
 module.exports = router;
+
