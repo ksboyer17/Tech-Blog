@@ -21,6 +21,19 @@ router.get('/', withAuth,(req, res)=> {
                     model:User,
                     attributes: ['username']
                 }
-        }] 
+        },
+        {
+            model: User,
+            attributes: ['username']
+        }
+    ] 
     })
-})
+    .then(dbPostData => {
+        const post = dbPostData.map(post => post. get ({ plain: true}));
+        res.render('dashboard', {post, loggedIn :true});
+    })
+    .catch(err => {
+        console.log(error);
+        res.status(500).json(error);
+    });
+});
