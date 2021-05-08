@@ -1,18 +1,18 @@
 const comment = [
     {
-      "user_id": "",
-      "post_id": "",
-      "post_text": ""
+      "user_id": 1,
+      "post_id": 1,
+      "comment_text": "adf"
     },
     {
-      "user_id": "",
-      "post_id": "",
-      "post_text": ""
+      "user_id": 2,
+      "post_id": 2,
+      "comment_text": "adf"
     },
     {
-      "user_id": "",
-      "post_id": "",
-      "post_text": ""
+      "user_id": 3,
+      "post_id": 3,
+      "comment_text": "adf"
     }
   ]
   

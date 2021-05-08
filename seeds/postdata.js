@@ -1,18 +1,18 @@
 const post =[
     {
-      "title": "",
-      "post_content": "",
-      "user_id": ""
+      "title": "Java",
+      "post_content": "Information",
+      "user_id": 1
     },
     {
-        "title": "",
-        "post_content": "",
-        "user_id": ""
+        "title": "HTML",
+        "post_content": "Information",
+        "user_id": 2
       },
       {
-        "title": "",
-        "post_content": "",
-        "user_id": ""
+        "title": "CSS",
+        "post_content": "Information",
+        "user_id": 3
       }
   ]
   

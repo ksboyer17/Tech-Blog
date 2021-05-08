@@ -24,9 +24,11 @@ Post.init(
     dateCreated: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [8],
-      },
+      defaultValue: DataTypes.NOW,
+    },
+    post_content: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {
